@@ -1,0 +1,1 @@
+import{j as s}from"./index-DWDROSWy.js";const o={link:""},i=[];function t(){const o=s("search_history_key");console.log(o),""==o?this.searchHistory=[]:(this.searchHistory=o.slice(0,9),console.log("赋值---"+o))}export{o as a,t as i,i as s};

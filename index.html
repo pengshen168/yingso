@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<link rel="stylesheet" href="/assets/uni.a496d891.css">
+
+		<meta name="baidu-site-verification" content="codeva-ivDXizj3i3" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<link rel="icon" id="base_link_icon">
+		<link rel="apple-touch-icon" id="apple_touch_icon">
+		<title>影搜</title>
+		<meta name="description"
+			content="影搜是一个开放纯粹的资源搜索平台，汇集了阿里云盘、百度云盘、夸克云盘、迅雷云盘四大资源，免费、免登录、无广告，专注于云盘资源搜索，方便、迅速、丝滑、流畅、高效。">
+		<meta name="keywords" content="云盘资源搜索领域No.1， 专注于云盘资源搜索， 阿里云盘， 百度云盘， 夸克云盘， 迅雷云盘， 免费资源， 无广告">
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+			})
+			var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS
+				.supports('top: constant(a)'))
+			document.write(
+				'<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+				(coverSupport ? ', viewport-fit=cover' : '') + '" />')
+		</script>
+
+		<link rel="icon" href="/assets/favicon-kTXKTuvB.ico">
+	
+
+		<script>
+			// 添加到主屏幕
+			var explorer = navigator.userAgent
+			let icon = document.getElementById("base_link_icon")
+			let aicon = document.getElementById("apple_touch_icon")
+			let title = document.getElementById("base_meta_title")
+			icon.href = "./static/logo.png"
+			aicon.href = "./static/logo.png"
+			title.content = "影搜"
+
+			if (explorer.indexOf('Safari') != -1) {
+				window.history.pushState({}, 0, '')
+			};
+
+
+			// 使用JavaScript隐藏浏览器底部导航栏
+			function hideBottomBar() {
+				if (window.location.hash.indexOf('#') > -1) {
+					window.scrollTo(0, 1);
+				} else {
+					setTimeout(() => {
+						window.scrollTo(0, 1);
+					}, 1000);
+				}
+			}
+
+			// 监听页面加载完成事件，执行隐藏底部导航栏的方法
+			document.addEventListener('DOMContentLoaded', hideBottomBar);
+		</script>
+		<script type="module" crossorigin src="/assets/index-DWDROSWy.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-k-HeFMc7.css">
+	</head>
+	<body>
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+
+		<div style="background-color: white;" id="app"><!--app-html--></div>
+
+	</body>
+</html>
